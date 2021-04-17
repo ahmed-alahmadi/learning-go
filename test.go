@@ -2,12 +2,11 @@ package main
 
 import "fmt"
 func main(){
-	// list :=10
-	// something :=[]int{12312,123123123,012321312,-13123,1,3,1242,51251,912312,512,12312}
-	// list= append(list,10)
-	// fmt.Print("i'm here",list)
-
-	// fmt.Print(bubbleSort(something))
+	list :=10
+	something :=[]int{12312,123123123,012321312,-13123,1,3,1242,51251,912312,512,12312}
+	list= append(something,10)
+	fmt.Print("i'm here",list)
+	fmt.Print(bubbleSort(something))
 	hello()
 }
 func bubbleSort(list []int) ([]int){
